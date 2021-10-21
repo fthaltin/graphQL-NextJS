@@ -1,0 +1,67 @@
+.showcaseContainer {
+  box-shadow: rgb(85 85 85 / 50%) 0px 1px 2px 0px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.containerHeader {
+  margin-bottom: 20px;
+}
+
+.containerHeader h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.containerBody {
+  display: flex;
+  justify-content: space-between;
+}
+.showcase {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-right: 16px;
+  width: 220px;
+  position: relative;
+}
+
+.showcaseImage {
+  padding: 8px;
+}
+
+.showcaseImage img {
+  width: 100%;
+}
+
+.showcaseDetail {
+  padding: 8px;
+}
+
+.showcaseBadges {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.showcasePrice {
+  background: #eee;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.showcaseCargo {
+  height: 24px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  color: #aaa;
+}
+
+.showcaseCargo > span {
+  margin-left: 8px;
+}

@@ -1,0 +1,30 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  padding: 5rem 0;
+}
+
+.productActions {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.likeCount,
+.myFavorites {
+  padding: 16px;
+  background: #fff;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.myFavorites {
+  cursor: pointer;
+}
